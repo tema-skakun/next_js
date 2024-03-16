@@ -1,5 +1,7 @@
+import Heading from "@/components/Heading";
+
 const Contact = () => (
-  <h1>Artem</h1>
+  <Heading text="Artem" />
 );
 
 export default Contact;
