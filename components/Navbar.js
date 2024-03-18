@@ -1,4 +1,5 @@
-import {usePathname} from "next/navigation"
+import {usePathname} from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import styles from "@/styles/Navbar.module.scss";
 
@@ -14,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>
-        myApp
+        <Image src="/logo.png" width={60} height={60} alt="myApp"/>
       </div>
       <div className={styles.links}>
         {navigation.map(({ id, title, path }) => (
