@@ -1,7 +1,13 @@
+import Head from "next/head";
 import Heading from "@/components/Heading";
 
 const Contact = () => (
-  <Heading text="Artem" />
+  <>
+    <Head>
+      <title>Contact</title>
+    </Head>
+    <Heading text="Artem"/>
+  </>
 );
 
 export default Contact;
