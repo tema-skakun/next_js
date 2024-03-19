@@ -1,12 +1,12 @@
 import Head from "next/head";
-import Heading from "@/components/Heading";
+import ContactInfo from "@/components/ContactInfo";
 
-const Contact = () => (
+const Contact = ({contact}) => (
   <>
     <Head>
       <title>Contact</title>
     </Head>
-    <Heading text="Artem"/>
+    <ContactInfo contact={contact}/>
   </>
 );
 
