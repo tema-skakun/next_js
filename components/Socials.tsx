@@ -1,6 +1,12 @@
 import styles from "../styles/Socials.module.scss";
+import { FC } from "react";
+import { socialsType } from "../types";
 
-const Socials = ({ socials }) => {
+type socialsProps = {
+    socials: [socialsType],
+}
+
+const Socials:FC<socialsProps> = ({ socials }) => {
 
   if (!socials) {
     return null;

@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from "next/link";
-import Heading from "@/components/Heading";
+import Heading from "../../components/Heading";
 
 export const getStaticProps = async () => {
   const response = await fetch('https://jsonplaceholder.typicode.com/posts');
