@@ -18,7 +18,7 @@ Next.js solves this problem using SSR and/or SSG.
 - implemented two approaches SSR and SSG
 - created a small API that returns a list of social network contacts
 - performed typing using Typescript
-- uploaded the finished application to [Vercel](https://blog-node-js-rnkc.onrender.com ).
+- uploaded the finished application to [Vercel](https://next-5ky9e2thj-temas-projects-7e652ad5.vercel.app/).
 
 
 ## Getting Started
